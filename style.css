@@ -110,3 +110,40 @@ button:hover{
     }
 
 }
+#topBtn{
+
+    position:fixed;
+
+    bottom:25px;
+
+    right:25px;
+
+    display:none;
+
+    background:#1b335f;
+
+    color:white;
+
+    border:none;
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    box-shadow:0 0 15px rgba(255,255,255,.3);
+
+    transition:.3s;
+
+}
+
+#topBtn:hover{
+
+    transform:scale(1.1);
+
+}
