@@ -1,5 +1,7 @@
 document.querySelector("button").addEventListener("click", function(){
 
-    alert("Welcome to Cardan's Secret Library!");
+    document.getElementById("library").style.display = "block";
+
+    this.style.display = "none";
 
 });
