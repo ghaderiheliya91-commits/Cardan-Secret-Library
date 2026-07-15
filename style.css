@@ -159,3 +159,54 @@ button:hover{
 .book-cover:hover{
     transform:scale(1.05);
 }
+.book-page{
+    min-height:100vh;
+    text-align:center;
+    padding:50px 20px;
+    color:white;
+}
+
+.book-page h1{
+    font-size:40px;
+    margin-top:25px;
+    letter-spacing:2px;
+}
+
+.book-page h3{
+    color:#c0c0c0;
+    font-weight:normal;
+}
+
+.book-page p{
+    max-width:600px;
+    margin:20px auto;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.book-cover{
+    width:260px;
+    border-radius:15px;
+    box-shadow:0 0 35px rgba(255,255,255,.3);
+    transition:.5s;
+}
+
+.book-cover:hover{
+    transform:scale(1.08) rotate(1deg);
+}
+
+.book-page button{
+    margin-top:30px;
+    padding:12px 25px;
+    background:#1b335f;
+    color:white;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.book-page button:hover{
+    transform:scale(1.05);
+}
