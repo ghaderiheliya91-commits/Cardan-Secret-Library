@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Cardan's Secret Library</title>
+
+<title>Cardan's Secret Library</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
-<body><div id="library" style="display:none;">
 
-    <h2>📚 My Books</h2>
+<body>
 
-    <div class="book" onclick="showBook(1)">
-    The Forgotten Story
-</div>
+<div id="welcome">
 
-<div class="book" onclick="showBook(2)">
-    The Last Page
-</div>
+<h1>Cardan's Secret Library</h1>
 
-<div class="book" onclick="showBook(3)">
-    Secrets Between Stars
-</div>
+<p>Every story begins with a secret...</p>
 
-<div id="bookPage">
+<button onclick="enterLibrary()">
+
+Enter the Library
+
+</button>
 
 </div>
 
+
+<div id="library">
+
+<h2>📚 My Books</h2>
+
+<div class="book">The Forgotten Story</div>
+
+<div class="book">The Last Page</div>
+
+<div class="book">Secrets Between Stars</div>
+
 </div>
 
-<h1>Welcome to Cardan's Secret Library</h1>
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
