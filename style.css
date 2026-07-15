@@ -1,67 +1,117 @@
 body{
-    background:#050814;
+
+    margin:0;
+
+    background:linear-gradient(180deg,#02040a,#081325,#0f1f38);
+
     color:silver;
-    font-family:Georgia, serif;
+
+    font-family:Georgia,serif;
+
     text-align:center;
-    padding:50px;
+
+    overflow-x:hidden;
+
+}
+
+#welcome{
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
 }
 
 h1{
+
+    font-size:60px;
+
     color:white;
-    text-shadow:0 0 15px silver;
+
+    text-shadow:0 0 20px silver;
+
+}
+
+p{
+
+    font-size:22px;
+
+    font-style:italic;
+
 }
 
 button{
-    background:#0b1a33;
-    color:silver;
-    border:1px solid silver;
-    padding:15px 30px;
-    border-radius:30px;
+
+    margin-top:30px;
+
+    padding:18px 40px;
+
+    font-size:20px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#102347;
+
+    color:white;
+
     cursor:pointer;
-}
-
-button:hover{
-    background:silver;
-    color:#050814;
-}
-.book{
-
-    background:#0b1a33;
-
-    border:1px solid silver;
-
-    margin:15px auto;
-
-    padding:20px;
-
-    max-width:300px;
-
-    border-radius:15px;
 
     transition:0.4s;
 
 }
 
+button:hover{
 
-.book:hover{
+    background:white;
 
-    transform:scale(1.05);
+    color:#081325;
 
-    box-shadow:0 0 20px silver;
+    transform:scale(1.08);
 
 }
-#bookPage{
 
-    margin-top:40px;
-
-    padding:30px;
-
-    border:1px solid silver;
-
-    border-radius:20px;
+#library{
 
     display:none;
 
-    background:#111827;
+    padding:60px;
+
+}
+
+.book{
+
+    width:280px;
+
+    margin:25px auto;
+
+    padding:25px;
+
+    background:#122445;
+
+    border:1px solid silver;
+
+    border-radius:18px;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    transition:0.4s;
+
+}
+
+.book:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 30px silver;
 
 }
