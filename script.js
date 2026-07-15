@@ -1,7 +1,24 @@
-function enterLibrary(){
+function enterLibrary() {
 
-document.getElementById("welcome").style.display="none";
+    const welcome = document.getElementById("welcome");
+    const library = document.getElementById("library");
 
-document.getElementById("library").style.display="block";
+    welcome.style.opacity = "0";
+
+    setTimeout(function () {
+
+        welcome.style.display = "none";
+
+        library.style.display = "block";
+
+        library.style.opacity = "0";
+
+        setTimeout(function () {
+
+            library.style.opacity = "1";
+
+        }, 100);
+
+    }, 800);
 
 }
