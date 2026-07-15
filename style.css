@@ -1,0 +1,26 @@
+body{
+    background:#050814;
+    color:silver;
+    font-family:Georgia, serif;
+    text-align:center;
+    padding:50px;
+}
+
+h1{
+    color:white;
+    text-shadow:0 0 15px silver;
+}
+
+button{
+    background:#0b1a33;
+    color:silver;
+    border:1px solid silver;
+    padding:15px 30px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:silver;
+    color:#050814;
+}
