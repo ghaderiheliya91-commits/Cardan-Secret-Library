@@ -68,3 +68,22 @@ function topFunction() {
     });
 
 }
+function openBook(){
+
+    const password = prompt("🔒 Enter the password");
+
+    if(password === "shadowfire"){
+
+        window.location.href = "my-beautiful-fire.html";
+
+    }else if(password === null){
+
+        return;
+
+    }else{
+
+        alert("❌ Wrong password");
+
+    }
+
+}
