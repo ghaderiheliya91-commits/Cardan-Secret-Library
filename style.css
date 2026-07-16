@@ -228,3 +228,13 @@ button:hover{
         transform:translateX(10%);
     }
     }
+#musicBtn{
+    position:fixed;
+    top:20px;
+    right:20px;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    font-size:22px;
+    z-index:999;
+}
