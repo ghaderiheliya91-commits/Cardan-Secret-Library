@@ -173,3 +173,58 @@ button:hover{
         opacity:1;
     }
 }
+/* ===== FOG ===== */
+
+#fog,
+#fog2{
+    position:fixed;
+    left:-30%;
+    width:160%;
+    border-radius:50%;
+    pointer-events:none;
+    filter:blur(50px);
+}
+
+#fog{
+    bottom:-70px;
+    height:180px;
+    background:rgba(255,255,255,.08);
+    animation:fog1 20s ease-in-out infinite;
+    z-index:-2;
+}
+
+#fog2{
+    bottom:40px;
+    height:140px;
+    background:rgba(255,255,255,.04);
+    animation:fog2 35s ease-in-out infinite;
+    z-index:-3;
+}
+
+@keyframes fog1{
+    0%{
+        transform:translateX(-8%);
+    }
+
+    50%{
+        transform:translateX(8%);
+    }
+
+    100%{
+        transform:translateX(-8%);
+    }
+}
+
+@keyframes fog2{
+    0%{
+        transform:translateX(10%);
+    }
+
+    50%{
+        transform:translateX(-10%);
+    }
+
+    100%{
+        transform:translateX(10%);
+    }
+    }
